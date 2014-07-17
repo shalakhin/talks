@@ -105,7 +105,7 @@ Statically typed language
 
 * JSON retrieve
 
-.play -numbers json.go /START OMIT/,/END OMIT/
+.code -numbers json.go /START OMIT/,/END OMIT/
 
 * Naming and Packages
 

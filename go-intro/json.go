@@ -36,6 +36,7 @@ func main() {
     // START OMIT
 	var page RedditPage
 	resp, err := http.Get("http://www.reddit.com/r/golang.json")
+    defer resp.Body.Close()
 	if err != nil {
 		log.Println(err)
 	}
