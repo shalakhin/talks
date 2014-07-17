@@ -2,11 +2,5 @@
 
 To run presentation:
 
-```
-go get code.google.com/p/go.tools/cmd/present
-
-present
-```
-
-and open browser at `localhost:3999`
+[http://godoc.org/github.com/OShalakhin/talks/go-intro/talk.slide](http://godoc.org/github.com/OShalakhin/talks/go-intro/talk.slide)
 

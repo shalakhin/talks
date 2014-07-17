@@ -1,0 +1,141 @@
+Go intro: Why it matters
+15:04 13 Jan 2014
+Tags: go
+
+Olexandr Shalakhin
+CEO, Kartoon Art
+olexandr@shalakhin.com
+http://shalakhin.com/
+@shalakhin
+
+* Goal
+
+* "How it can be useful for me?"
+
+* Answer questions
+
+- Introduction
+- How it was created?
+- For whom?
+- Why should I care?
+- OK, what are the possible problems (and solutions)?
+
+* Golang authors & Contributors
+
+Authors
+
+- [[http://en.wikipedia.org/wiki/Ken_Thompson][Ken Thompson]] (Unix, C, UTF-8)
+- [[http://en.wikipedia.org/wiki/Rob_Pike][Rop Pike]] (Plan 9, UTF-8)
+- [[http://en.wikipedia.org/wiki/Robert_Griesemer][Robert Griesemer]] (V8)
+
+Contributors
+
+- [[http://en.wikipedia.org/wiki/Brad_Fitzpatrick][Brad Fitzpatrick]] (OpenID, LiveJournal, memcached)
+- [[http://swtch.com/~rsc/][Russ Cox]]
+
+* What is Go?
+
+Statically typed language
+
+- garbage collection
+- type safety
+- dynamic typing capabilities
+- well thought standard library
+- huge community of skilled developers at #go-nuts
+- bla-bla-bla
+
+* Simplicity the Go way means...
+
+- No generics
+- No method overloading
+- No exceptions
+- No assertions
+- Maybe some other "no"
+- No formatting hollywars
+
+* Simplicity the Go way means... (2)
+
+- elegant build system
+- easy to read code
+- easy to use documentation
+- handle errors as any other types + recover, panic
+
+* Build packages
+
+    // Python
+    pip install flask
+    from flask import Flask
+
+    // Ruby
+    gem install rails
+    require 'rails'
+
+    // Node.js
+    npm install -g coffee-script
+    ...
+
+    // Go
+    import (
+        "github.com/justinas/nosurf"
+    )
+
+    go get github.com/MyName/myapp
+
+* Composition & Interfaces
+
+.code interfaces.go /interface OMIT/,/end interface OMIT/
+.code interfaces.go /example OMIT/,/end example OMIT/
+.play interfaces.go /START main OMIT/,/END main OMIT/
+
+* Use cases
+
+- Docker
+- Flynn.io
+- Ubuntu JuJu
+- SoundCloud
+- Shopify
+- dl.google.com
+- YouTube
+- iron.io
+- etc.
+
+* JSON handling
+
+.code -numbers json.go /START structs OMIT/,/END structs OMIT/
+
+* JSON retrieve
+
+.play -numbers json.go /START OMIT/,/END OMIT/
+
+* Naming and Packages
+
+- lowercase are *private*
+- uppercase are *public*
+- package is a directory (not a file)
+- namespace per if/func/...
+
+* Some frameworks?
+
+- Revel
+- Martini (uses Reflect for Dependency Injection)
+- BeeGo (inspired by Tornado)
+
+* How can I make such presentation?
+
+    go get code.google.com/p/go.tools/cmd/present
+    cd /path/to/talk/directory
+    vim talk.slide
+    present
+    open http://localhost:3999
+
+* To read
+
+.link http://tour.golang.org/#1 Go Tour
+.link http://play.golang.org/ Go Playground
+.link http://godoc.org/ GoDoc (contains documentation on Go packages)
+.link http://research.swtch.com/dashboard/Go1.4 Go Dashboard with tasks
+.link http://www.confreaks.com/events/gophercon2014 GopherCon 2014 talks & videos
+.link http://goconvey.co/ GoConvery BDD
+.link https://github.com/avelino/awesome-go A curated list of awesome Go frameworks, libraries and software
+.link https://code.google.com/p/go-wiki/wiki/GoUsers Companies using Go in production
+
