@@ -10,7 +10,7 @@ http://shalakhin.com/
 
 * Goal
 
-* "How it can be useful for me?"
+* How can it be useful for me?
 
 * Answer questions
 
@@ -31,7 +31,7 @@ Authors
 Contributors
 
 - [[http://en.wikipedia.org/wiki/Brad_Fitzpatrick][Brad Fitzpatrick]] (OpenID, LiveJournal, memcached)
-- [[http://swtch.com/~rsc/][Russ Cox]]
+- [[http://swtch.com/~rsc/][Russ Cox]] (Plan 9)
 
 * What is Go?
 
@@ -58,7 +58,7 @@ Statically typed language
 - elegant build system
 - easy to read code
 - easy to use documentation
-- handle errors as any other types + recover, panic
+- handle errors as any other types + recover, panic, defer
 
 * Build packages
 
@@ -119,6 +119,8 @@ Statically typed language
 - Revel
 - Martini (uses Reflect for Dependency Injection)
 - BeeGo (inspired by Tornado)
+- Web.go
+- many others
 
 * How can I make such presentation?
 
@@ -135,7 +137,7 @@ Statically typed language
 .link http://godoc.org/ GoDoc (contains documentation on Go packages)
 .link http://research.swtch.com/dashboard/Go1.4 Go Dashboard with tasks
 .link http://www.confreaks.com/events/gophercon2014 GopherCon 2014 talks & videos
-.link http://goconvey.co/ GoConvery BDD
+.link http://goconvey.co/ GoConvey BDD
 .link https://github.com/avelino/awesome-go A curated list of awesome Go frameworks, libraries and software
 .link https://code.google.com/p/go-wiki/wiki/GoUsers Companies using Go in production
 
