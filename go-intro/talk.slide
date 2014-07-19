@@ -87,18 +87,6 @@ Statically typed language
 .code interfaces.go /example OMIT/,/end example OMIT/
 .play interfaces.go /START main OMIT/,/END main OMIT/
 
-* Use cases
-
-- Docker
-- Flynn.io
-- Ubuntu JuJu
-- SoundCloud
-- Shopify
-- dl.google.com
-- YouTube
-- iron.io
-- etc.
-
 * JSON handling
 
 .code -numbers json.go /START structs OMIT/,/END structs OMIT/
@@ -106,6 +94,10 @@ Statically typed language
 * JSON retrieve
 
 .code -numbers json.go /START OMIT/,/END OMIT/
+
+* Testing
+
+.code testing.go
 
 * Naming and Packages
 
@@ -121,6 +113,18 @@ Statically typed language
 - BeeGo (inspired by Tornado)
 - Web.go
 - many others
+
+* Use cases
+
+- Docker
+- Flynn.io
+- Ubuntu JuJu
+- SoundCloud
+- Shopify
+- dl.google.com
+- YouTube
+- iron.io
+- etc.
 
 * How can I make such presentation?
 
